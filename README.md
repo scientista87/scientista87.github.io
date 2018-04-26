@@ -1,1 +1,1 @@
-# scientista87.github.io
+Please do not provide links to this website while under review. This data is meant to be representative of the data that we will provide if the paper is accepted, but is not meant as the final website
