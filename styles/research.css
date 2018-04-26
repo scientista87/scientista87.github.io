@@ -1,11 +1,5 @@
 @charset "UTF-8";
 
-/*
- * Style sheets for research (such as publications, talks, etc.).
- *
- * Author: Si Huang
- *
- */
 .pub-title {
     margin: 0px;
     padding: 0px;
@@ -14,9 +8,13 @@
 
 .pub-big-title {
     margin: 0px;
-    padding: 0px;
+    padding-bottom: 10px;
     vertical-align: bottom;
-    font-size: 30px;
+    font-family: Arial;
+    font-size: 36px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
 }
 
 .pub-author {
@@ -24,10 +22,37 @@
     padding: 1px 0px 1px 0px;
 }
 
+.pub-description {
+    margin: 10px 60px 10px 60px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.pub-list {
+    margin: 10px 180px 10px 180px;
+    /*text-align: left;*/
+    font-size: 18px;
+}
+
+.pub-list2 {
+    margin: 10px 100px 10px 100px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.pub-link {
+    margin: 10px 180px 10px 200px;
+    text-align: left;
+    font-size: 18px;
+}
+
 .pub-source {
+    font-family: Arial;
     font-style: italic;
     margin: 0px;
     padding: 1px 0px 1px 0px;
+    text-align: center;
 }
 
 .pub-additional {

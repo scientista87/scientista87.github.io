@@ -1,11 +1,5 @@
 @charset "UTF-8";
 
-/*
- * Style sheets for home page.
- *
- * Author: Si Huang
- *
- */
 body {
     width: 70%;
     min-width: 800px;
@@ -50,9 +44,11 @@ img {
  * Header.
  */
 table.header {
-    margin: 0px;
-    padding: 0px;
+    margin-top: 20px;
+    padding: 20px;
     width: 100%;
+    border-bottom: 2px solid #778899;
+    background-color: #cacaca;
 }
 
 td.header-title {
@@ -109,11 +105,18 @@ td.header-icon {
  */
 .bar {
     clear: both;
-    margin: 5px 0px 0px 0px;
-    padding: 2px 0px 2px 8px;
-    /* font-size: 20px; */
+    margin: 0px 0px 0px 0px;
+    padding: 2px 0px 2px 0px;
+    font-size: 30px; 
     font-weight: bold;
-    background-color: #87ceeb;
+    border-top: 2px solid #778899;
+    text-align: center;
+    /*background-color: #2F4F4F;*/
+}
+
+.board {
+    margin-top: 4px;
+    border: 2px solid #778899;
 }
 
 img#photo {
