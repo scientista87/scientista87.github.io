@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/**
+ * Style sheets for projects.
+ *
+ * Author: Si Huang
+ *
+ */
+table.data {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+table.small {
+    font-size: 12px;
+}
+
+/* class "innerList" added by zebao*/
+.innerList {
+    padding-top: 2px; 
+    list-style-type: none;
+    text-align: left;  
+    margin: 0 auto; 
+    padding: 0; 
+    padding-left: 3px; 
+}
